@@ -1,0 +1,67 @@
+h1 {
+	background-color: #ed7302;
+	color: white;
+	display:inline;
+	padding: 10px;
+	margin-bottom: 50px;
+	margin-left: 10px;
+}
+body {
+	background-image: url("../images/backgroundImage.jpg");
+}
+.game {
+	margin-left: 10px;
+}
+#content{
+	background-color: #efc48b;
+	color: green;
+	margin-top: 20px;
+	border: solid 1px #ddd;
+	font-weight: bold;
+}
+
+.guessTotal {
+	background-color: #3d8979;
+	color: white;
+
+}
+
+#guessBoard {
+	font-size: 50px;
+	color: white;
+    height: 200px;
+}
+
+.card {
+	margin-left: 10px;
+}
+
+.guessTotal {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+img {
+	height: auto;
+	position: relative;
+}
+
+.crystal-image{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+#guessValue {
+	color: white;
+	font-size: 50px;
+}
+
+.resultBoard {
+	background-color: #69e1e5;
+}
+
+.targetBoard {
+	background-color: #4dd651;
+}

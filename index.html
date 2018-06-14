@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>unit-4-game</title>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+
+	<body>
+		<div><br></div>
+
+		<h1 class="card-head">Crystals Collector!</h1>
+
+		<div class="row game">
+			<div class="card-body col-lg-6" id="content">
+				<p>You will be given a random number at the start of the game.</p>
+				<p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+				<p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+			</div>
+		</div>
+
+
+		<!-- Result Panel -->
+			<div class="row">
+				<div class="col-4 mt-3">
+			        <div class="card col-4 float-right resultBoard">
+			          <h5 class="card-body">Wins : <span id="wins"></span></h5>
+			          <h5 class="card-body">Losses : <span id="losses"></span></h5>
+			        </div>
+			        <div class="card h-100 col-lg-6 targetBoard">
+			        	<h2 class="card-body" id="targetNumber"><span id="getNumber"></span></h2>
+			        </div>
+				</div>
+			</div>
+			
+
+			<div id="crystals"></div>
+			<div class="guessTotal col-4"><p> Your total score is: </p></div>
+			<div class="guessTotal col-4" id="guessBoard"><span id="guessValue"></span></div>
+</body>
+</html>
